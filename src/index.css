@@ -7,33 +7,33 @@
 
 @layer base {
   :root {
-    --background: 273 53% 12%;
+    --background: 273 53% 10%;  /* Darker background */
     --foreground: 260 32% 86%;
 
-    --card: 273 53% 17%;
+    --card: 273 53% 15%;  /* Darker card */
     --card-foreground: 260 32% 92%;
 
-    --popover: 273 53% 12%;
+    --popover: 273 53% 10%;  /* Darker popover */
     --popover-foreground: 260 32% 86%;
 
-    --primary: 260 32% 66%;
-    --primary-foreground: 273 53% 12%;
+    --primary: 260 50% 66%;  /* More vibrant primary */
+    --primary-foreground: 273 53% 10%;
 
-    --secondary: 273 34% 35%;
+    --secondary: 273 50% 35%;  /* More vibrant secondary */
     --secondary-foreground: 260 32% 92%;
 
-    --muted: 273 34% 25%;
+    --muted: 273 45% 22%;  /* Darker and more vibrant muted */
     --muted-foreground: 260 32% 75%;
 
-    --accent: 260 32% 76%;
-    --accent-foreground: 273 53% 12%;
+    --accent: 260 50% 76%;  /* More vibrant accent */
+    --accent-foreground: 273 53% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 273 34% 25%;
-    --input: 273 34% 25%;
-    --ring: 260 32% 66%;
+    --border: 273 45% 22%;  /* Darker and more vibrant border */
+    --input: 273 45% 22%;   /* Darker and more vibrant input */
+    --ring: 260 50% 66%;    /* More vibrant ring */
 
     --radius: 0.75rem;
   }
@@ -56,16 +56,16 @@
   }
   
   ::-webkit-scrollbar-track {
-    background: #230C33;
+    background: #1A0A29;  /* Updated to match new museum-dark */
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #592E83;
+    background: #4D1B7B;  /* Updated to match new museum-medium */
     border-radius: 4px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #9984D4;
+    background: #8F6BC7;  /* Updated to match new museum-light */
   }
 }
 
