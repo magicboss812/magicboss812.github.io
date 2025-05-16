@@ -70,7 +70,7 @@
 @layer components {
   .museum-card {
     @apply bg-card rounded-xl p-5 border border-muted shadow-md mb-5 animate-fade-in opacity-0;
-    animation-fill-mode: backwards;
+    animation-fill-mode: forwards;
   }
   
   .museum-card:nth-child(1) {
