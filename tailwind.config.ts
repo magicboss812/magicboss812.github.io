@@ -70,6 +70,9 @@ export default {
 					light: '#9984D4',
 				}
 			},
+			fontFamily: {
+				display: ['Impact', 'Anton', 'sans-serif'],
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
@@ -101,6 +104,9 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out forwards'
+			},
+			backgroundOpacity: {
+				'49': '0.49',
 			}
 		}
 	},

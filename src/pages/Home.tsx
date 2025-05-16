@@ -5,14 +5,19 @@ import { ArrowRight } from "lucide-react";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-museum-dark">
-      <div className="container px-4 py-8 mx-auto max-w-md">
-        <header className="mb-6 text-center">
-          <h1 className="text-3xl font-bold text-museum-light mb-2">MUSEUMSBESUCH</h1>
+    <div className="min-h-screen bg-cover bg-center relative" style={{
+      backgroundImage: "url('/lovable-uploads/8a34d261-185e-45d0-b5aa-d253735ac6d3.png')"
+    }}>
+      {/* Dark purple overlay */}
+      <div className="absolute inset-0 bg-museum-dark bg-opacity-49"></div>
+      
+      <div className="container px-4 py-8 mx-auto max-w-md relative z-10">
+        <header className="mb-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-museum-light mb-2 font-display">MUSEUMSBESUCH</h1>
         </header>
         
         <main>
-          <section className="museum-card">
+          <section className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-museum-medium/30">
             <h2 className="text-2xl font-bold text-white mb-4">Du hast den QR-Code also doch gescannt!</h2>
             
             <div className="space-y-4 text-left">
@@ -49,7 +54,7 @@ const Home = () => {
           </section>
         </main>
         
-        <footer className="mt-12 text-center text-sm text-muted-foreground">
+        <footer className="mt-12 text-center text-sm text-white">
           <p>© 2024 Museenbesuch Projektwoche</p>
         </footer>
       </div>
