@@ -13,12 +13,12 @@ const Home = () => {
       
       <div className="container px-4 py-8 mx-auto max-w-md relative z-10">
         <header className="mb-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-museum-light mb-2 font-display">MUSEUMSBESUCH</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#a27eff] mb-2 font-display">MUSEUMSBESUCH</h1>
         </header>
         
         <main>
           <section className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-museum-medium/30">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-['Courier_New'] tracking-wide">Du hast den QR-Code also doch gescannt!</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-['Impact'] tracking-wide">Du hast den QR-Code also doch gescannt!</h2>
             
             <div className="space-y-4 text-left">
               <p className="text-white">Hallo!</p>

@@ -7,33 +7,33 @@
 
 @layer base {
   :root {
-    --background: 273 53% 8%;  /* Even darker background */
+    --background: 273 65% 8%;  /* Even darker and more saturated background */
     --foreground: 260 32% 86%;
 
-    --card: 273 53% 12%;  /* Even darker card */
+    --card: 273 65% 12%;  /* Even darker and more saturated card */
     --card-foreground: 260 32% 92%;
 
-    --popover: 273 53% 8%;  /* Even darker popover */
+    --popover: 273 65% 8%;  /* Even darker and more saturated popover */
     --popover-foreground: 260 32% 86%;
 
-    --primary: 260 55% 66%;  /* More vibrant primary */
-    --primary-foreground: 273 53% 8%;
+    --primary: 260 65% 66%;  /* More vibrant and saturated primary */
+    --primary-foreground: 273 65% 8%;
 
-    --secondary: 273 55% 35%;  /* More vibrant secondary */
+    --secondary: 273 65% 35%;  /* More vibrant and saturated secondary */
     --secondary-foreground: 260 32% 92%;
 
-    --muted: 273 50% 18%;  /* Even darker and more vibrant muted */
+    --muted: 273 65% 18%;  /* Even darker, more vibrant and saturated muted */
     --muted-foreground: 260 32% 75%;
 
-    --accent: 260 55% 76%;  /* More vibrant accent */
-    --accent-foreground: 273 53% 8%;
+    --accent: 260 65% 76%;  /* More vibrant and saturated accent */
+    --accent-foreground: 273 65% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 273 50% 18%;  /* Even darker and more vibrant border */
-    --input: 273 50% 18%;   /* Even darker and more vibrant input */
-    --ring: 260 55% 66%;    /* More vibrant ring */
+    --border: 273 65% 18%;  /* Even darker, more vibrant and saturated border */
+    --input: 273 65% 18%;   /* Even darker, more vibrant and saturated input */
+    --ring: 260 65% 66%;    /* More vibrant and saturated ring */
 
     --radius: 0.75rem;
   }
@@ -56,16 +56,16 @@
   }
   
   ::-webkit-scrollbar-track {
-    background: #150823;  /* Updated to match new darker museum-dark */
+    background: #150823;  /* Keep matching museum-dark */
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #3D1666;  /* Updated to match new darker museum-medium */
+    background: #3D1666;  /* Keep matching museum-medium */
     border-radius: 4px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #8158C5;  /* Updated to match new darker museum-light */
+    background: #8158C5;  /* Keep matching museum-light */
   }
 }
 
