@@ -13,7 +13,7 @@ const Home = () => {
       
       <div className="container px-4 py-8 mx-auto max-w-md relative z-10">
         <header className="mb-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#a27eff] mb-2 font-display">MUSEUMSBESUCH</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-museum-light mb-2 font-display">MUSEUMSBESUCH</h1>
         </header>
         
         <main>
