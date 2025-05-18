@@ -63,11 +63,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom theme colors based on requirements - darker and more vibrant purple
+				// Custom theme colors - even darker and more vibrant purple
 				museum: {
-					dark: '#1A0A29',      // Darker purple 
-					medium: '#4D1B7B',    // More vibrant medium purple
-					light: '#8F6BC7',     // More vibrant light purple
+					dark: '#150823',      // Even darker purple 
+					medium: '#3D1666',    // Even darker, more vibrant medium purple
+					light: '#8158C5',     // Darker, more vibrant light purple
 				}
 			},
 			fontFamily: {

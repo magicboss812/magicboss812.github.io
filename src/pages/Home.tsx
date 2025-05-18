@@ -18,7 +18,7 @@ const Home = () => {
         
         <main>
           <section className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-museum-medium/30">
-            <h2 className="text-2xl font-bold text-white mb-4 font-sans">Du hast den QR-Code also doch gescannt!</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-['Courier_New'] tracking-wide">Du hast den QR-Code also doch gescannt!</h2>
             
             <div className="space-y-4 text-left">
               <p className="text-white">Hallo!</p>

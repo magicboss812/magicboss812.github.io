@@ -7,33 +7,33 @@
 
 @layer base {
   :root {
-    --background: 273 53% 10%;  /* Darker background */
+    --background: 273 53% 8%;  /* Even darker background */
     --foreground: 260 32% 86%;
 
-    --card: 273 53% 15%;  /* Darker card */
+    --card: 273 53% 12%;  /* Even darker card */
     --card-foreground: 260 32% 92%;
 
-    --popover: 273 53% 10%;  /* Darker popover */
+    --popover: 273 53% 8%;  /* Even darker popover */
     --popover-foreground: 260 32% 86%;
 
-    --primary: 260 50% 66%;  /* More vibrant primary */
-    --primary-foreground: 273 53% 10%;
+    --primary: 260 55% 66%;  /* More vibrant primary */
+    --primary-foreground: 273 53% 8%;
 
-    --secondary: 273 50% 35%;  /* More vibrant secondary */
+    --secondary: 273 55% 35%;  /* More vibrant secondary */
     --secondary-foreground: 260 32% 92%;
 
-    --muted: 273 45% 22%;  /* Darker and more vibrant muted */
+    --muted: 273 50% 18%;  /* Even darker and more vibrant muted */
     --muted-foreground: 260 32% 75%;
 
-    --accent: 260 50% 76%;  /* More vibrant accent */
-    --accent-foreground: 273 53% 10%;
+    --accent: 260 55% 76%;  /* More vibrant accent */
+    --accent-foreground: 273 53% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 273 45% 22%;  /* Darker and more vibrant border */
-    --input: 273 45% 22%;   /* Darker and more vibrant input */
-    --ring: 260 50% 66%;    /* More vibrant ring */
+    --border: 273 50% 18%;  /* Even darker and more vibrant border */
+    --input: 273 50% 18%;   /* Even darker and more vibrant input */
+    --ring: 260 55% 66%;    /* More vibrant ring */
 
     --radius: 0.75rem;
   }
@@ -56,16 +56,16 @@
   }
   
   ::-webkit-scrollbar-track {
-    background: #1A0A29;  /* Updated to match new museum-dark */
+    background: #150823;  /* Updated to match new darker museum-dark */
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #4D1B7B;  /* Updated to match new museum-medium */
+    background: #3D1666;  /* Updated to match new darker museum-medium */
     border-radius: 4px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #8F6BC7;  /* Updated to match new museum-light */
+    background: #8158C5;  /* Updated to match new darker museum-light */
   }
 }
 
