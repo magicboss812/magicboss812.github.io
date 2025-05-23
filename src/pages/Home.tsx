@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
@@ -8,17 +7,20 @@ const Home = () => {
     <div className="min-h-screen bg-cover bg-center relative" style={{
       backgroundImage: "url('/lovable-uploads/8a34d261-185e-45d0-b5aa-d253735ac6d3.png')"
     }}>
+      {/* Top Bar */}
+      <div className="fixed top-0 left-0 w-full z-50 border-b border-muted bg-museum-dark py-2.5 flex justify-center items-center">
+        <span className="text-4xl md:text-4xl font-bold text-museum-light font-sans-serif tracking-wide">
+          Museenbesuch
+        </span>
+      </div>
+
       {/* Dark purple overlay */}
-      <div className="absolute inset-0 bg-museum-dark bg-opacity-49"></div>
+      <div className="absolute inset-0 bg-museum-dark bg-opacity-60"></div>
       
-      <div className="container px-4 py-8 mx-auto max-w-md relative z-10">
-        <header className="mb-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-museum-light mb-2 font-display">MUSEUMSBESUCH</h1>
-        </header>
-        
+      <div className="container px-4 py-8 mx-auto max-w-md relative z-10" style={{paddingTop: "4.5rem"}}>
         <main>
           <section className="bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-museum-medium/30">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-['Bebas Neue'] tracking-wide">Du hast den QR-Code also doch gescannt!</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-bebas-neue tracking-wide">Du hast den QR-Code also doch gescannt!</h2>
             
             <div className="space-y-4 text-left">
               <p className="text-white">Hallo!</p>
@@ -47,7 +49,7 @@ const Home = () => {
                 className="w-full bg-museum-medium hover:bg-museum-light text-white font-bold text-lg py-6"
               >
                 <Link to="/wochenplan">
-                  Wochenplan <ArrowRight className="ml-2" />
+                  zu unserem Wochenplan <ArrowRight className="ml-2" />
                 </Link>
               </Button>
             </div>
@@ -55,7 +57,7 @@ const Home = () => {
         </main>
         
         <footer className="mt-12 text-center text-sm text-white">
-          <p>© 2024 Museenbesuch Projektwoche</p>
+          <p>© 2025 Museenbesuch Projektwoche</p>
         </footer>
       </div>
     </div>

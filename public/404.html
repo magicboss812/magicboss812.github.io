@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // For client-side routing: redirect to root and let the SPA handle it
+      var path = window.location.pathname;
+      if (path !== "/") {
+        window.location.replace("/#" + path + window.location.search + window.location.hash);
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

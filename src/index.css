@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +7,7 @@
 
 @layer base {
   :root {
-    --background: 273 53% 8%;  /* Even darker background */
+    --background: 273 73% 8%;  /* Even darker background */
     --foreground: 260 32% 86%;
 
     --card: 273 53% 12%;  /* Even darker card */
@@ -93,4 +94,29 @@
   .museum-card:nth-child(5) {
     animation-delay: 0.5s;
   }
+}
+
+.font-bebas-neue {
+  font-family: 'Bebas Neue', cursive, sans-serif;
+}
+
+.font-anton {
+  font-family: 'Anton', sans-serif;
+}
+
+.font-impact {
+  font-family: Impact, sans-serif;
+}
+
+/* Add this to src/index.css */
+.text-outline-black {
+  text-shadow:
+    -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff,
+     0px  1px 0 #ffffff,
+     1px  0px 0 #ffffff,
+     0px -1px 0 #ffffff,
+    -1px  0px 0 #ffffff;
 }

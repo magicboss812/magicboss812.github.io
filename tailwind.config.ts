@@ -66,12 +66,12 @@ export default {
 				// Custom theme colors - even darker and more vibrant purple
 				museum: {
 					dark: '#150823',      // Even darker purple 
-					medium: '#3D1666',    // Even darker, more vibrant medium purple
+					medium: '#5F2899',    // Even darker, more vibrant medium purple
 					light: '#8158C5',     // Darker, more vibrant light purple
 				}
 			},
 			fontFamily: {
-				display: ['Impact', 'Anton', 'sans-serif'],
+				display: ['Impact', 'Anton', 'sans-serif', 'Bebas Neue'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

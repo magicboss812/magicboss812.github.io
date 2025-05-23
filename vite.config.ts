@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: '/magicboss812.github.io/', // Ensure this matches your GitHub Pages repository name
+  base: '/', // Ensure this matches your GitHub Pages repository name
   server: {
     host: "::",
     port: 8080,
